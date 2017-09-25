@@ -1,0 +1,25 @@
+{
+	"name": "undercloud/ant",
+	"description": "Awesome New Templates - PHP template engine",
+	"keywords": ["template","engine"],
+	"homepage": "https://undercloud.github.io/ant",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "undercloud",
+			"email": "lodashes@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0",
+		"undercloud/picojade": "*",
+		"undercloud/lang": "*",
+		"undercloud/leaf": "*",
+		"undercloud/inlinecss": "*"
+	},
+	"autoload": {
+		"classmap": [
+			"Ant/"
+		]
+	}
+}
